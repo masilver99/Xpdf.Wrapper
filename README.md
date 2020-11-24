@@ -1,9 +1,16 @@
-# XpdfNet
-A C# wrapper for [Xpdf](https://www.xpdfreader.com/ "Xpdf"). Read text from a pdf file.
+# Xpdf.Wrapper
+A C# wrapper for [Xpdf](https://www.xpdfreader.com/ "Xpdf"). Read text and imagaes from a pdf file.
 
-Appveyor | TravisCI | Code Coverage| Codacy | Nuget |
--------- | :------------: | :------------: | :------------: | :------------: |
-[![Build Status](https://ci.appveyor.com/api/projects/status/50tcsir5rpwmw4w7?svg=true)](https://ci.appveyor.com/project/gqy117/xpdfnet)|[![Build Status](https://travis-ci.org/gqy117/XpdfNet.svg?branch=master)](https://travis-ci.org/gqy117/XpdfNet)|[![codecov](https://codecov.io/gh/gqy117/XpdfNet/branch/master/graph/badge.svg)](https://codecov.io/gh/gqy117/XpdfNet)|[![Codacy Badge](https://api.codacy.com/project/badge/Grade/018a69933f1246fe82c5eb6b78e23ad4)](https://app.codacy.com/app/gqy117/XpdfNet?utm_source=github.com&utm_medium=referral&utm_content=gqy117/XpdfNet&utm_campaign=badger)|[![nuget](https://img.shields.io/nuget/v/XpdfNet.svg)](https://www.nuget.org/packages/XpdfNet)|
+This is a near complete rewrite of thr XpdfNet library.  This allows for easier addition of more of the Xpdf executables and include PdfImages as well.
+
+TODO:
+-----
+ * Research how to automatically use the correct Xpdf exe based on processor architecture (x86/x64) and OS.
+ * Update and refresh unit tests based on code changes.
+ * Add additional unit tests to handle added command line parameters.
+
+
+Original XpdfNet Readme:
 
 Usage
 ------
