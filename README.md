@@ -1,7 +1,7 @@
 # Xpdf.Wrapper
 A C# wrapper for [Xpdf](https://www.xpdfreader.com/ "Xpdf"). Read text and imagaes from a pdf file.
 
-This is a near complete rewrite of thr XpdfNet library.  This allows for easier addition of more of the Xpdf executables and include PdfImages as well.
+This is a near complete rewrite of thr XpdfNet library.  This allows for easier addition of more of the Xpdf executables and initially include PdfImages as well.
 
 TODO:
 -----
