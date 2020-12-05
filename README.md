@@ -17,7 +17,7 @@ using Xpdf.Wrapper;
 string content = Xpdf.PdfToText("./pathToFile.pdf");
 ```
 
-You also have access to many of the XDF commandline params alternatively passing in a PdfToTextParameters class to PdfToText.
+You also have access to many of the XDF commandline params by alternatively passing in a PdfToTextParameters class to PdfToText.
 
 
 Original XpdfNet Readme:
