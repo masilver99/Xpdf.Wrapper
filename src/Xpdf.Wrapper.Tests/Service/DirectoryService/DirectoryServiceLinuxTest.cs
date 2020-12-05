@@ -10,6 +10,7 @@
 
     public class DirectoryServiceLinuxTest
     {
+        /*
         private readonly IDirectoryService directoryService;
 
         public DirectoryServiceLinuxTest()
@@ -30,6 +31,7 @@
             Assert.Equal(expected, actual);
         }
 
+        /*
         [Fact]
         public void GetArguments_ShouldReturnPdftotextAndArguments()
         {
@@ -48,5 +50,6 @@
             string expected = "-c \"chmod +x ./pdftotext; ./pdftotext -enc UTF-8 \"1.pdf\" \"1.txt\"\"";
             Assert.Equal(expected, actual);
         }
+        */
     }
 }

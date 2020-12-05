@@ -5,6 +5,11 @@
     /// </summary>
     public class PdfToTextParameters : IXpdfParameters
     {
+        public PdfToTextParameters(string pdfFilename)
+        {
+            PdfFilename = pdfFilename;
+        }
+
         /// <summary>
         /// Optional output filename.  If omitted, text will be returned as a string.
         /// </summary>
@@ -40,8 +45,8 @@
                 this.OutputPageBreaks() +
                 this.OutputRaw() +
                 this.OutputDiscardDiagnalText() +
-                " " + this.PdfFilename +
-                " " + this.OutputFilename;
+                $" \"{this.PdfFilename}\"" +
+                $" \"{this.OutputFilename}\"";
         }
 
         private string OutputEncoding()
@@ -96,7 +101,6 @@
 
         public void Validate()
         {
-            throw new System.NotImplementedException();
         }
     }
 }
